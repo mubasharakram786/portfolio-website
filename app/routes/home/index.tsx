@@ -8,7 +8,7 @@ export function meta({}: Route.MetaArgs) {
 }
 
 export default function Home() {
-  return <div className="max-w-6xl mx-auto my-8">
+  return <section>
     <Hero/>
-  </div>;
+  </section>;
 }
