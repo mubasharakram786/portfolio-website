@@ -2,11 +2,11 @@ import React from 'react'
 
 const ContactPage = () => {
   return (
-    <section>
+    <>
         <h2 className='text-3xl text-white font-bold mb-8'>
         ☎ Contact Me
         </h2>
-    </section>
+    </>
   )
 }
 
