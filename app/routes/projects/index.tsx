@@ -1,6 +1,6 @@
 import ProjectCard from "~/components/ProjectCard";
 import type { Route } from "./+types/index"
-import { Project } from "~/types";
+import type { Project } from "~/types";
 export async function loader ({request}:Route.LoaderArgs):Promise<{project:Project[]}>{
     const res = await fetch('http://localhost:8000/projects');
     const data = await res.json();

@@ -5,6 +5,7 @@ export default [
     layout('./routes/layouts/main.tsx', [
          route('about', './routes/about/index.tsx'),
     route('project', './routes/projects/index.tsx'),
+    route('project/:id', './routes/projects/details.tsx'),
     route('contact', './routes/contact/index.tsx'),
     route('blog', './routes/blog/index.tsx'),
     ])
